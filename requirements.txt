@@ -1,4 +1,4 @@
-# Task 4 - Fashion-MNIST image classification
+# Fashion-MNIST image classification
 # Tested with Python 3.12 on Windows, CPU-only, 100% local (no cloud services).
 # All packages are free and open-source.
 #

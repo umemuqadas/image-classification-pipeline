@@ -1,7 +1,7 @@
 # Image Classification Pipeline
 
 **Fashion-MNIST benchmark — MLP / lightweight CNN / classical linear SVM · Computer Vision & Evaluation**
-*Task 4: Image Classification with Classical / Pre-trained ML · 100% local, free & open-source tooling*
+*Image Classification with Classical / Pre-trained ML · 100% local, free & open-source tooling*
 
 A complete image-classification pipeline: dataset loading → normalization / pixel scaling →
 stratified train/validation/test partitioning → training of an MLP, a lightweight CNN and a
@@ -103,7 +103,7 @@ the evidence that the inductive bias (locality) is doing the work.
 normalized pixels (784-d) → SGDClassifier(loss="hinge", alpha=1e-4)  # Pegasos-style linear SVM
                           → CalibratedClassifierCV (Platt/sigmoid scaling, fit on the validation split)
 ```
-*Rationale:* the classical-ML reference point of the task. Hinge loss = a linear SVM trained by
+*Rationale:* the classical-ML reference point of this comparison. Hinge loss = a linear SVM trained by
 stochastic gradient descent (fast on 60k samples, seconds instead of the minutes a full
 `LinearSVC` dual solve needs). `CalibratedClassifierCV` converts raw margins into calibrated
 class probabilities so the confidence column of the inference demo is meaningful for the SVM

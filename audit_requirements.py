@@ -1,4 +1,4 @@
-"""Automated acceptance audit for Task 4 - checks every stated requirement."""
+"""Automated acceptance audit - checks every stated requirement."""
 import json
 import re
 from pathlib import Path

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-TASK 4: Image Classification with Classical / Pre-trained ML
-=============================================================
+Image Classification with Classical / Pre-trained ML
+====================================================
 
 Fashion-MNIST image classification pipeline (100% local, free open-source tools).
 

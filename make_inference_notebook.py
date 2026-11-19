@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds inference_demo.ipynb (a runnable companion notebook for Task 4).
+"""Builds inference_demo.ipynb (a runnable companion notebook for this project).
 
 The notebook itself does NOT retrain anything: it loads the checkpoint exported by
 fashion_mnist_pipeline.py, re-applies the exact stored normalization, runs inference
@@ -30,7 +30,7 @@ def code(src: str) -> None:
 
 
 md("""
-# TASK 4 — Inference Demo Notebook
+# Inference Demo Notebook
 
 **Fashion-MNIST image classification with classical / pre-trained ML**
 
