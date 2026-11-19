@@ -1,0 +1,17 @@
+index,true_label,predicted_label,confidence,correct
+858,T-shirt/top,T-shirt/top,0.9844,True
+891,Sandal,Sandal,1.0,True
+941,Trouser,Trouser,1.0,True
+2013,Dress,Dress,0.9966,True
+4325,Coat,Coat,0.9993,True
+4383,Sandal,Sandal,1.0,True
+5262,Bag,Bag,1.0,True
+6537,Ankle boot,Ankle boot,0.9986,True
+6968,Sneaker,Sneaker,0.9992,True
+7174,Sandal,Sandal,1.0,True
+7355,Pullover,Pullover,0.6115,True
+7609,Ankle boot,Ankle boot,0.9997,True
+7728,Sneaker,Sneaker,1.0,True
+7860,Ankle boot,Ankle boot,0.8143,True
+8577,Bag,Bag,1.0,True
+9752,Bag,Bag,1.0,True

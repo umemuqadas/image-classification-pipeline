@@ -1,0 +1,19 @@
+MLP - Fashion-MNIST classification report
+test accuracy: 0.8874
+
+              precision    recall  f1-score   support
+
+ T-shirt/top     0.8507    0.8490    0.8498      1000
+     Trouser     0.9799    0.9730    0.9764      1000
+    Pullover     0.7893    0.8240    0.8063      1000
+       Dress     0.8737    0.8990    0.8862      1000
+        Coat     0.8148    0.7920    0.8032      1000
+      Sandal     0.9697    0.9600    0.9648      1000
+       Shirt     0.7277    0.7030    0.7152      1000
+     Sneaker     0.9291    0.9570    0.9429      1000
+         Bag     0.9807    0.9660    0.9733      1000
+  Ankle boot     0.9577    0.9510    0.9543      1000
+
+    accuracy                         0.8874     10000
+   macro avg     0.8873    0.8874    0.8872     10000
+weighted avg     0.8873    0.8874    0.8872     10000

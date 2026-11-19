@@ -1,0 +1,20 @@
+# Dataset — downloaded on first run by torchvision (Fashion-MNIST, ~30 MB)
+data/
+
+# Smoke-test outputs (never clobber real results, not part of the deliverable)
+outputs_smoke/
+models_smoke/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.executed.ipynb
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
